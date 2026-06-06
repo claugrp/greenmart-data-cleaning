@@ -1,0 +1,16 @@
+# Ignorar archivos innecesarios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar archivos temporales y copias de seguridad de cuadernos (Jupyter / Colab)
+.ipynb_checkpoints/
+
+# Ignorar entornos virtuales y variables de entorno (por si los usas en el futuro)
+venv/
+env/
+.env
+
+# Ignorar archivos ocultos generados por los sistemas operativos (Mac / Windows)
+.DS_Store
+Thumbs.db
